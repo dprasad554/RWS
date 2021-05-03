@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="#FFFFFF"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/tv_stateName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Update Status"
+                android:textColor="#000000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="7dip"
+                android:background="@drawable/my_custom_background"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Scheme: "
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/Scheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dip"
+                    android:background="@drawable/non_editable_field"
+                    android:gravity="center|start"
+                    android:paddingLeft="5dp"
+                    android:text="RURAL WATER SUPPLY AND SANITATION"
+                    android:textSize="14sp" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="TubewellID: "
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/tubewell_id"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dip"
+                    android:background="@drawable/non_editable_field"
+                    android:gravity="center|start"
+                    android:paddingLeft="5dp"
+                    android:text="TUBEWELL ID"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Landmark: "
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <EditText
+                    android:id="@+id/landmark"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dip"
+                    android:background="@drawable/non_editable_field"
+                    android:gravity="center|start"
+                    android:paddingLeft="5dp"
+                    android:text="Landmark"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Sub Scheme: "
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/subScheme"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dip"
+                    android:background="@drawable/non_editable_field"
+                    android:gravity="center|start"
+                    android:paddingLeft="5dp"
+                    android:text="TUBE WELL"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Complainant Type: "
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/ticketno"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dip"
+                    android:background="@drawable/non_editable_field"
+                    android:gravity="center|start"
+                    android:paddingLeft="5dp"
+                    android:text="181074"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/complaintType"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_margin="5dip"
+                    android:background="@drawable/non_editable_field"
+                    android:gravity="center|start"
+                    android:paddingLeft="5dp"
+                    android:text="LESS WATER OR NO WATER"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="Ticket No: "
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="GPS Location(Current Location)"
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+
+                <TextView
+                    android:id="@+id/txt_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:layout_marginTop="7dip"
+                    android:background="@drawable/non_editable_field"
+                    android:editable="false"
+                    android:gravity="center|start"
+                    android:hint="GPS Location"
+                    android:maxLines="3"
+                    android:overScrollMode="always"
+                    android:paddingLeft="5dp"
+                    android:scrollbars="vertical"
+                    android:textSize="14dp" />
+
+              <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <Button
+                        android:id="@+id/btn_upload"
+                        android:layout_width="wrap_content"
+                        android:layout_height="37dp"
+                        android:background="@drawable/blue_button"
+                        android:padding="5dp"
+                        android:text="Upload Image"
+                        android:textColor="#ffffff" />
+
+                    <TextView
+                        android:id="@+id/tv_imageName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="imagename234ghg34.jpeg "
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/my_custom_background"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Status "
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="*"
+                        android:textColor="#ef3b68"
+                        android:textSize="18sp" />
+
+
+                </LinearLayout>
+
+                <com.weiwangcn.betterspinner.library.BetterSpinner
+                    android:id="@+id/spinner_status_drop"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_top_bg"
+                    android:editable="false"
+                    android:gravity="center|start"
+                    android:hint="Select status"
+                    android:overScrollMode="always"
+                    android:padding="10dp"
+                    android:scrollbars="vertical"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Action Date "
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="*"
+                        android:textColor="#ef3b68"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/selectedDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_top_bg"
+                    android:gravity="center|start"
+                    android:onClick="setDate"
+                    android:padding="10dp"
+                    android:text=""
+                    android:textColor="#000000"
+                    android:textSize="15sp" />
+
+                <LinearLayout
+                    android:id="@+id/ll_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Complaint Category "
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="*"
+                        android:textColor="#ef3b68"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <com.weiwangcn.betterspinner.library.BetterSpinner
+                    android:id="@+id/spinner_complaint_category"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:visibility="gone"
+                    android:background="@drawable/edittext_top_bg"
+                    android:editable="false"
+                    android:gravity="center|start"
+                    android:hint="Select Category"
+                    android:overScrollMode="always"
+                    android:padding="10dp"
+                    android:scrollbars="vertical"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:id="@+id/ll_days"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:text="Required Days "
+                        android:textColor="#000000"
+                        android:textSize="15sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="*"
+                        android:textColor="#ef3b68"
+                        android:textSize="18sp" />
+
+                </LinearLayout>
+
+                <EditText
+                    android:id="@+id/requiredDay"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/edittext_top_bg"
+                    android:gravity="start"
+                    android:visibility="gone"
+                    android:hint="Enter Required Days"
+                    android:inputType="number"
+                    android:maxLines="5"
+                    android:padding="10dp"
+                    android:textSize="14sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:weightSum="1">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="0.6"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="5dp"
+                                android:text="Authority Remarks "
+                                android:textColor="#000000"
+                                android:textSize="15sp" />
+
+                            <!--<TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="*"
+                                android:layout_marginTop="1dp"
+                                android:textSize="18sp"
+                                android:textColor="#ef3b68"/>-->
+
+                        </LinearLayout>
+
+                        <EditText
+                            android:id="@+id/remarks"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:background="@drawable/edittext_top_bg"
+                            android:gravity="start"
+                            android:hint="Enter Remarks"
+                            android:inputType="text"
+                            android:maxLines="5"
+                            android:padding="10dp"
+                            android:textSize="14sp" />
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="10dp"
+                        android:layout_weight="0.4"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Upload Image "
+                            android:textColor="#000000"
+                            android:textSize="15sp" />
+
+                        <RelativeLayout
+                            android:id="@+id/relative_layout2"
+                            android:layout_width="match_parent"
+                            android:layout_height="80dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginTop="5dp"
+                            android:background="@drawable/edittext_top_bg">
+
+                            <LinearLayout
+                                android:id="@+id/linear_layout_user_icon"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginLeft="4dp"
+                                android:layout_marginTop="7dp"
+                                android:background="#eeeeee">
+
+
+                                <ImageView
+                                    android:id="@+id/image_user_icon"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="4dp"
+                                    android:background="@drawable/user_icon"
+                                    android:scaleType="fitXY" />
+
+                            </LinearLayout>
+
+
+                            <LinearLayout
+                                android:id="@+id/linear_layout_image_camera_icon"
+                                android:layout_width="60dp"
+                                android:layout_height="60dp"
+                                android:layout_marginLeft="5dip"
+                                android:layout_marginRight="4dp"
+                                android:layout_marginTop="7dp"
+                                android:layout_toRightOf="@+id/linear_layout_user_icon"
+                                android:background="#eeeeee">
+
+                                <ImageView
+                                    android:id="@+id/image_camera_icon"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:layout_gravity="center"
+                                    android:layout_marginLeft="4dp"
+                                    android:layout_marginTop="1dp"
+                                    android:layout_toRightOf="@+id/linear_layout_user_icon"
+                                    android:background="@drawable/camera_icon" />
+                            </LinearLayout>
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btn_update"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/blue_button"
+                android:text="Update"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@drawable/blue_button"
+                android:text="Cancel"
+                android:textColor="#fff"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

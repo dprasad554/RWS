@@ -1,0 +1,46 @@
+<resources>
+    <string name="app_name">RWSS</string>
+    <string name="register_text">New User? </string>
+    <string name="register_text_new"> Register Here </string>
+
+    //Live//
+    <!--<string name="main_url">http://45.114.50.231:8010/RWSSAPI/api/</string>-->
+    //Test//
+    <string name="main_url">http://45.114.50.231:8020/api/</string>
+	<string name="index_url">Login/</string>
+    <string name="index_district">District/</string>
+    <string name="index_block">Block/</string>
+    <string name="index_gp">GramaPanchayat/</string>
+    <string name="index_village">Village/</string>
+    <string name="index_complaint">ComplainList/</string>
+    <string name="update_status">UpdateStatus/</string>
+
+    <string name="want_to_exit">Are you sure you want to exit?</string>
+    <string name="logout">Are you sure you want to logout?</string>
+    <string name="update_success">Data Updated Successfully</string>
+    <string name="offline_update_success">No internet connection. Offline Data Saved Successfully!!</string>
+    <string name="success">Success</string>
+
+    <string-array name="status">
+        <item>--Select--</item>
+        <item>Registered</item>
+        <item>Acknowledge</item>
+        <item>WorkInprogress</item>
+        <item>Resolved</item>
+        <!--<item>Registered</item>
+        <item>Intimated</item>
+        <item>Inprogress</item>
+        <item>Onhold</item>
+        <item>Resolved</item>
+        <item>Discarded</item>-->
+    </string-array>
+    <string-array name="complaintCategory">
+        <item>Major</item>
+        <item>Minor</item>
+    </string-array>
+
+    <string name="registered"><font fgcolor="#c43131">Registered</font></string>
+    <string name="solved"><font fgcolor="#4ab63c">Solved</font></string>
+    <string name="pending"><font fgcolor="#c43131">Pending</font></string>
+
+</resources>

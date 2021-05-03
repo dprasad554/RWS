@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/toolbar" />
+
+    <TextView
+        android:id="@+id/tv_stateName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" "
+        android:gravity="center"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="#000000"/>
+
+    <TextView
+        android:id="@+id/tv_noData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No Details Available"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:textColor="#000000"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:orientation="horizontal"
+        android:id="@+id/lin_orderlist"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="7dip"
+        android:background="@drawable/edittext_top_bg"
+        android:weightSum="5">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="10sp"
+            android:text="Village Name"
+            android:padding="3dip"
+            android:textStyle="bold"
+            android:background="#6cbaf5"
+            android:textColor="#333"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/textView7"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#999999" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="10sp"
+            android:text="GP Name"
+            android:padding="3dip"
+            android:textStyle="bold"
+            android:background="#6cbaf5"
+            android:textColor="#333"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/textView8"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#999999" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="10sp"
+            android:text="Complaint Name"
+            android:padding="3dip"
+            android:textStyle="bold"
+            android:background="#6cbaf5"
+            android:textColor="#333"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/textView4" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#999999" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6cbaf5"
+            android:textColor="#333"
+            android:textSize="10sp"
+            android:text="Complaint Type"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:padding="3dip"
+            android:gravity="center"
+            android:id="@+id/textView5" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#999999"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6cbaf5"
+            android:textColor="#333"
+            android:textSize="10sp"
+            android:text="Status"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:padding="20dip"
+            android:gravity="left|center_vertical"
+            android:id="@+id/textView6" />
+        </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" />
+
+</LinearLayout>

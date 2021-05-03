@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\tatwa\.gradle\caches\modules-2\files-2.1\android.arch.core\common\1.1.0\8007981f7d7540d89cd18471b8e5dcd2b4f99167\common-1.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="8007981f7d7540d89cd18471b8e5dcd2b4f99167">
+        <dex dex="D:\RWSSSVN\app\build\intermediates\transforms\dex\debug\folders\1000\10\common-1.1.0_2d20c8d5c8ed5d403b3d13b1371696e678258d38\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tatwa\.android\build-cache\91922ea1f993d27090674a213ee4ff85ff452513\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="b15c6ded887ad967e20bb335c1a121b253c04dce">
+        <dex dex="D:\RWSSSVN\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5132ada7e909059614bc78ae2aaf640848c3ed22\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tatwa\.gradle\caches\modules-2\files-2.1\com.mcxiaoke.volley\library\1.0.16\d8f5b9114ebe0f76de7fbf55e950540959ce4ff8\library-1.0.16.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d8f5b9114ebe0f76de7fbf55e950540959ce4ff8">
+        <dex dex="D:\RWSSSVN\app\build\intermediates\transforms\dex\debug\folders\1000\10\library-1.0.16_6423f2bf8fb5615425492c8c31f950cf17845183\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\RWSSSVN\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\RWSSSVN\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_5edb14715039f14c3e9bc913d03ca9b0d9885044\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tatwa\.android\build-cache\231c113eb0eca60aba1faaf911cbe4f93912fdb1\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="e2bbe48deed35056023eed2cdc0cc92e5c7d3617">
+        <dex dex="D:\RWSSSVN\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0aae4c98e8c38436bef5baf6df907251c2831243\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tatwa\.android\build-cache\aabdcb1d63fb1d3adace8f3aa867e3a3212fc86f\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="d968b9bd0011800e0d333d1571b8d34bcb8a0b6e">
+        <dex dex="D:\RWSSSVN\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4052f87ba55b5c8135bd774f0347263c2c1181e1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tatwa\.android\build-cache\f178adb84ec5ade844f244d01180c6832221ea7c\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="7038c6d960d3fe26fd41bc509f256c9692d886ce">
+        <dex dex="D:\RWSSSVN\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f694340e76a963b63c5fa439296033f66aa7b507\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tatwa\.gradle\caches\modules-2\files-2.1\com.android.support.constraint\constraint-layout-solver\1.1.3\bde0667d7414c16ed62d3cfe993cff7f9d732373\constraint-layout-solver-1.1.3.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bde0667d7414c16ed62d3cfe993cff7f9d732373">
+        <dex dex="D:\RWSSSVN\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.1.3_0f595dea2178a7eb4d27a8e7e9ee9b82735bc018\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tatwa\.android\build-cache\7e352ab3397e420071951128544975afa7823b18\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="ae6d33f37143b08cd8c477c9e348d61ef7ed7eba">
+        <dex dex="D:\RWSSSVN\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_168781592cfff7495bdafba4fd7c6754032e8393\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\RWSSSVN\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="badb927f8361aa9e9d4493cdc6456d3cfe690c32">
+        <dex dex="D:\RWSSSVN\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_c35f88e47d34d970d15af6212008515a0fa21159\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\tatwa\.android\build-cache\21dd5b235dea59fa06a21ddff70721ab01d616e2\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="1fd3ceac7f415975323d52c6c6057db409a907f6">
+        <dex dex="D:\RWSSSVN\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_d284b2acd387cc3a0b27263685d8786073854bcc\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5f6f1"
+    android:orientation="vertical">
+        <include
+            android:id="@+id/appbar"
+            layout="@layout/login_toolbar" />
+
+
+    <LinearLayout
+        android:id="@+id/ll_image"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:gravity="center|bottom"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="110dp"
+            android:layout_height="110dp"
+            android:padding="10dp"
+            android:src="@drawable/odisha_sasan_logo"
+            android:contentDescription="@null" />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:id="@+id/sale_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:padding="10dp"
+        android:orientation="vertical"
+        android:layout_centerInParent="true">
+
+
+        <EditText
+            android:id="@+id/mobile_edit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:singleLine="true"
+            android:hint="User Name"
+            android:layout_marginTop="10dp"
+            android:drawableLeft="@mipmap/username_icon"
+            android:drawablePadding="10dp"
+            android:fontFamily="sans-serif"
+            android:paddingLeft="10dp"
+            android:background="@drawable/new_background"/>
+        <EditText
+            android:id="@+id/password_edit"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:singleLine="true"
+            android:hint="Password"
+            android:drawablePadding="10dp"
+            android:drawableLeft="@mipmap/password_icon"
+            android:fontFamily="sans-serif"
+            android:inputType="textPassword"
+            android:paddingLeft="8dp"
+            android:background="@drawable/new_background"/>
+        <Button
+            android:id="@+id/btn_submit"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/blue_button"
+            android:text="Login"
+            android:textColor="#fff"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="© 2018 Tatwa Technologies Limited"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:textStyle="bold"
+        android:id="@+id/textView12"
+        android:layout_marginBottom="20dip"
+        android:visibility="visible" />
+
+</RelativeLayout>

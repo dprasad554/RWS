@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    card_view:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/rl_main"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="?android:selectableItemBackground">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <View
+                android:layout_width="5dp"
+                android:layout_height="match_parent"
+                android:background="#1C82B3">
+
+            </View>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="10dp">
+
+               <!--<LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/txt_date"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="12/10/2018"
+                        android:gravity="end"
+                        android:layout_marginRight="5dp"
+                        android:layout_weight="1"
+                        android:textColor="@android:color/black"
+                        android:textSize="14sp" />
+
+                   </LinearLayout>-->
+                <LinearLayout
+                    android:id="@+id/ll_main"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="35dp"
+                    android:weightSum="5">
+
+                    <TextView
+                        android:id="@+id/txt_villagename"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Village Name"
+                        android:textSize="10sp"
+                        android:textColor="#333"
+                        android:gravity="left"
+                        android:padding="3dip"
+                         />
+
+                    <TextView
+                        android:id="@+id/txt_gpname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="GP Name"
+                        android:textSize="10sp"
+                        android:textColor="#333"
+                        android:gravity="left"
+                        android:padding="3dip"
+                         />
+
+                    <TextView
+                        android:id="@+id/txt_complainantname"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Complainant Name"
+                        android:textSize="10sp"
+                        android:textColor="#333"
+                        android:gravity="left"
+                        android:padding="3dip"
+                        android:textStyle="bold" />
+                   <!-- <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:layout_marginRight="2.5dp"
+                        android:background="#999999"/>-->
+                    <TextView
+                        android:id="@+id/txt_complaintype"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Complaint Type"
+                        android:textSize="8sp"
+                        android:textColor="#333"
+                        android:gravity="center"
+                        android:padding="3dip"/>
+                   <!-- <View
+                        android:layout_width="1dp"
+                        android:layout_height="match_parent"
+                        android:background="#999999"/>-->
+                    <TextView
+                        android:id="@+id/txt_status"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:text="Status"
+                        android:textSize="10sp"
+                        android:textColor="#333"
+                        android:gravity="center"
+                        android:padding="11dip"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@id/txt_complaintype"
+                    android:orientation="horizontal"
+                    android:gravity="end">
+
+                    <ImageView
+                        android:id="@+id/view_complaint"
+                        android:layout_width="38dp"
+                        android:layout_height="38dp"
+                        android:layout_marginStart="7dp"
+                        android:layout_marginEnd="5dp"
+                        android:src="@drawable/baseline_remove_red_eye_white_18dp"
+                        android:padding="8dp"
+                        android:background="@drawable/round_bg"
+                        android:contentDescription="@null" />
+
+                    <ImageView
+                        android:id="@+id/edit_complaint"
+                        android:layout_width="38dp"
+                        android:layout_height="38dp"
+                        android:layout_marginStart="3dp"
+                        android:layout_marginEnd="5dp"
+                        android:src="@drawable/baseline_edit_white_18dp"
+                        android:padding="9dp"
+                        android:background="@drawable/round_bg"
+                        android:contentDescription="@null"/>
+                    <!--<Button
+                        android:id="@+id/btn_view"
+                        android:layout_width="125dp"
+                        android:layout_height="31dp"
+                        android:text="View Details"
+                        android:textSize="12sp"
+                        android:background="@drawable/button_round_background"
+                        android:layout_marginTop="7dp"
+                        android:textColor="#ffffff"/>-->
+
+           </LinearLayout>
+           </LinearLayout>
+           </LinearLayout>
+     </RelativeLayout>
+</android.support.v7.widget.CardView>

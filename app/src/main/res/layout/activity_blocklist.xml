@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/toolbar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dip"
+        android:orientation="horizontal"
+        android:id="@+id/lin_orderlist"
+        android:layout_marginLeft="5dip"
+        android:layout_marginRight="5dip"
+        android:layout_marginTop="7dip"
+        android:layout_below="@+id/appbar"
+        android:background="@drawable/edittext_top_bg"
+        android:weightSum="5">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="12sp"
+            android:text="Sl No"
+            android:padding="3dip"
+            android:textStyle="bold"
+            android:background="#6cbaf5"
+            android:textColor="#333"
+            android:gravity="center"
+            android:layout_weight="1"
+            android:id="@+id/textView4" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#999999" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6cbaf5"
+            android:textColor="#333"
+            android:textSize="14sp"
+            android:text="Block"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:padding="3dip"
+            android:gravity="center"
+            android:id="@+id/textView5" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#999999"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#6cbaf5"
+            android:textColor="#333"
+            android:textSize="14sp"
+            android:text="Register"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:padding="3dip"
+            android:gravity="left|center_vertical"
+            android:id="@+id/textView6" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#999999"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="14sp"
+            android:text="Solved"
+            android:background="#6cbaf5"
+            android:textColor="#333"
+            android:padding="3dip"
+            android:gravity="left|center_vertical"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:id="@+id/textView7" />
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#999999"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="14sp"
+            android:text="Pending"
+            android:background="#6cbaf5"
+            android:textColor="#333"
+            android:padding="3dip"
+            android:gravity="left|center_vertical"
+            android:textStyle="bold"
+            android:layout_weight="1"
+            android:id="@+id/textView8" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_noData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No Details Available"
+        android:gravity="center"
+        android:textSize="20sp"
+        android:visibility="gone"
+        android:textColor="#000000"/>
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_below="@+id/lin_orderlist"
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"/>
+
+   <!-- <FrameLayout
+        android:layout_below="@+id/recycler_view"
+        android:id="@+id/sublayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+    </FrameLayout>-->
+
+</RelativeLayout>

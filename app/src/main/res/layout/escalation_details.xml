@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="10dip"
+    android:layout_marginRight="10dip"
+    android:layout_marginTop="3dip"
+    android:background="@drawable/my_custom_background"
+    android:orientation="vertical"
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Complaint Details "
+        android:textColor="#000000"
+        android:textSize="16sp"
+        android:gravity="center"
+        android:textStyle="bold"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="3dp"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/complaint_id"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:text="Complaint ID"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+           android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/complaint_status"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:text="ComplaintStatus"
+            android:layout_marginLeft="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tv_complaint_id"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:background="@drawable/non_editable_field"
+            android:gravity="center|start"
+            android:paddingLeft="5dp"
+            android:layout_weight="1"
+            android:textSize="11sp" />
+        <TextView
+            android:id="@+id/tv_complaint_status"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:background="@drawable/non_editable_field"
+            android:gravity="center|start"
+            android:layout_marginLeft="15dp"
+            android:textSize="11sp" />
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/dist_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:text="Dist Name"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/block_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:text="BlockName"
+            android:layout_marginLeft="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tv_dist_name"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:textSize="10sp"
+            android:background="@drawable/non_editable_field"
+            android:gravity="center|start"
+            android:paddingLeft="5dp"/>
+        <TextView
+            android:id="@+id/tv_block_name"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:layout_marginLeft="15dp"
+            android:textSize="10sp"
+            android:background="@drawable/non_editable_field"
+            android:gravity="center|start" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/gp_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:text="GPName"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/village_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:text="VillageName"
+            android:layout_marginLeft="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tv_gp_name"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:textSize="10sp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/non_editable_field"
+            android:gravity="center|start"
+            android:layout_weight="1" />
+        <TextView
+            android:id="@+id/tv_village_name"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:background="@drawable/non_editable_field"
+            android:gravity="center|start"
+            android:paddingLeft="5dp"
+            android:layout_weight="1"
+            android:layout_marginLeft="15dp"
+            android:textSize="10sp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/location_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:text="LocationName"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="true" />
+
+        <TextView
+            android:id="@+id/habitat_name"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="#000000"
+            android:textSize="12sp"
+            android:layout_marginLeft="15dp"
+            android:text="HabitatName"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textIsSelectable="true" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+
+        <TextView
+            android:id="@+id/tv_location_name"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:paddingLeft="5dp"
+            android:background="@drawable/non_editable_field"
+            android:gravity="center|start"/>
+        <TextView
+            android:id="@+id/tv_habitat_name"
+            android:layout_width="100dp"
+            android:layout_height="25dp"
+            android:layout_weight="1"
+            android:paddingLeft="5dp"
+            android:background="@drawable/non_editable_field"
+            android:gravity="center|start"
+            android:layout_marginLeft="15dp"
+            android:textSize="10sp" />
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ticket Number "
+        android:textColor="#000000"
+        android:textSize="12sp" />
+    <TextView
+        android:id="@+id/tv_ticket_number"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:background="@drawable/non_editable_field"
+        android:gravity="center|start"
+        android:paddingLeft="5dp"
+        android:textSize="12sp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Escalation Details "
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tv_noData"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="No Details Available"
+        android:gravity="center"
+        android:textSize="15sp"
+        android:visibility="gone"
+        android:textColor="#000000"/>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp" />
+
+</LinearLayout>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/appbar"
+        layout="@layout/app_toolbar" />
+
+    <ImageView
+        android:id="@+id/iv_image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/appbar"
+        android:src="@drawable/welcome_image2"
+        android:scaleType="fitXY"
+        android:contentDescription="@null">
+    </ImageView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/iv_image">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <com.weiwangcn.betterspinner.library.BetterSpinner
+        android:id="@+id/spinner_state"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:background="@drawable/spinner_background"
+        android:gravity="center|start"
+        android:paddingLeft="9dp"
+        android:textSize="14sp"
+        android:hint="Select State"
+        android:scrollbars="vertical"
+        android:overScrollMode="always"
+        android:editable="false"/>
+
+    <Button
+        android:id="@+id/btn_jereport"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="10dp"
+        android:visibility="gone"
+        android:padding="7dp"
+        android:background="@drawable/button_round_background"
+        android:text="Dashboard"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:id="@+id/ll_adminview"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="10dp"
+        android:weightSum="1">
+
+        <Button
+            android:id="@+id/btn_adminreport"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="0.5"
+            android:padding="7dp"
+            android:background="@drawable/button_round_background"
+            android:text="Dashboard"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="0dp"
+            android:layout_height="38dp"
+            android:layout_weight="0.5"
+            android:padding="7dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/button_round_background"
+            android:text="Map View"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            android:textSize="15sp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="38dp"
+        android:padding="7dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/button_round_background"
+        android:text="Logout"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+        android:textSize="15sp" />
+
+</LinearLayout>
+    </ScrollView>
+</RelativeLayout>
